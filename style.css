@@ -1,0 +1,152 @@
+:root{
+    --main-color: #0545a3;
+    --main-color2: rgb(241, 12, 12);
+}
+
+body{
+    margin: 3px 3px;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}   
+
+/*--Header--*/
+
+.header{
+    min-height: 50vh;
+    background: url("img/bg.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+/* navbar */
+
+.navbar{
+
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand{
+letter-spacing: 0.3rem;
+font-size: 1.8rem;
+background: -webkit-linear-gradient(90deg, purple, blue);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+/*Navbar Menu*/
+#navbarNav ul{
+    margin-left: auto;
+    
+}
+
+
+.navbar .nav-link{
+    color: var(--main-color);
+    letter-spacing: 0.2rem;
+}
+
+.navbar .active{
+    color:var(--main-color2);
+}
+
+.navbar .nav-link:hover{
+    color: var(--main-color2);
+}
+
+
+
+/* Hero */
+
+.hero-text{
+    font-size: 1.5rem;
+    margin: 20px 0px ;
+
+}
+
+.hero-text h1{
+    font: size 3rem;
+    font-weight: bolder;
+    color: var(--main-color);
+}
+
+/* Skills section */
+.section-title{
+margin: 1rem;
+font-size: 3rem;
+color: var(--main-color);
+font-weight: 700;
+
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.skills div{
+min-width: 30%;
+font-size: 2rem;
+margin-bottom: 3rem;
+}
+
+.portfolio{
+    background: linear-gradient(90deg, #fcfed6, #b7fff4);
+    
+}
+/* About Me 
+.about-me{
+    background: linear-gradient(90deg, #b7fff4, #7eff89);
+}
+*/
+
+/* contact */
+
+.contact{
+  
+    background: linear-gradient(90deg, #ebfedd, #ebfee4);
+}
+
+
+
+
+.contact-list{
+font-size: 2rem;
+text-align: center; 
+margin: 0px 10px 30px 10px ;
+
+}
+
+.contact-list a{
+    text-decoration: none;
+    color: var(--main-color);
+    line-height: 2rem;
+    margin: 0px 10px 30px 10px ;
+    
+}
+
+/* Footer */
+
+.footer{
+    margin: 5px 0px;
+}
+
+#to-up {
+    position: fixed;
+    background: rgb(191, 240, 221);
+    color: white;
+    font-size: 1.5rem;
+    z-index: 999;
+    bottom: 50px;
+    right: 50px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px lightblue;
