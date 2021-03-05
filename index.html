@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Welcome to Rabin's website</title>
     <!--Bootstrap Getting Starting-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
@@ -19,12 +19,11 @@
 <link rel="icon" href="img/fav.png" type="image/png " sizes="16x16">
 
 </head>
-<body>
+  <body>
     <!--head section start-->
     <div class="header" id="header">
-    <nav class="navbar navbar-expand-md">
-        
-     <div class="container">     
+    <nav class="navbar navbar-expand-md">  
+    <div class="container">     
           <a class="navbar-brand" href="#">Rabin</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
@@ -51,7 +50,7 @@
           </div>
         </div>  
       </nav>
-      <div class="container"></div>
+    <div class="container">
       <div class="row mt-5">
         <div class="col-md-5 order-md-2">
             <img src="img/final.png" alt="Rabin" width="70%" height="100%" style="margin-left: 90px;">
@@ -66,7 +65,7 @@
             </div>
         </div>
     </div>
-</div>
+    </div>
     </div>
 
     <!-- Skills section -->
@@ -98,13 +97,11 @@
 
     <!-- Portfolio -->
     <section class="portfolio" id="portfolio">
+      <div class="container">
       <div class="row">
         <div class="col">
           <h2 class="section-title text-center py-4">Portfolio</h2>
-        </div>
-      </div>
-    <div class="container">
-      
+        
       <!-- P1 -->
       <div class="row py-4">
         <div class="col-md-5">
@@ -143,8 +140,10 @@
         </div>
       </div>
     </div>
-    
-    </section>
+    </div>
+    </div>
+  </div>
+  </section>
 
     <!-- About Me -->
     <section class="about-me" id="about-me">
@@ -156,7 +155,8 @@
         </div>
 
         <div class="row">
-          <div class="col-md-5 left"><img src="img/me.jpg" width="100%" height="auto" alt="Coding" style="margin-bottom: 3 0px;"></div>
+          <div class="col-md-5 left">
+            <img src="img/me.jpg" width="100%" height="auto" alt="Coding" style="margin-bottom: 3 0px;"></div>
             <div class="col-md-7 right">
               <h2> Intro</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, laudantium veniam. Amet molestiae, eligendi excepturi saepe minus ex veritatis? Iure cupiditate quod culpa, dolore adipisci assumenda laudantium esse accusamus odio!</p>
@@ -166,11 +166,9 @@
             
     </section>
 
-
-
 <!-- Contact Me -->
 
-<section class="contact" id="contact">
+    <section class="contact" id="contact">
   <div class="container">
     <div class="row">
       <div class="col">
@@ -196,31 +194,27 @@
        
         <div>
           <i class="fas fa-envelope-open-text"></i>
-          <a href="mailto:rabinghimire2012@gmail.com" target="_blank">rabinghimire2012@gmail.com</a>
+          <a href="mailto:rabinghimire2012@gmail.com" target="_blank">rabinghimire2012@gmail.com</a> 
         </div>
       </div>
       
     </div>
     
   </div>
-</section>
+    </section>
 
 <!-- Footer -->
 
-<section class="footer text-center " >
+    <section class="footer text-center " >
 &copy;copyright Rabin Ghimire | All right reserved
-
+<a href="#header">
   <span id="to-up" style="visibility: visible;">
-    <a href="#header">
-      <i class="fas fa-level-up-alt">
-        
-      </i>
-    </a>
-  
+      <i class="fas fa-level-up-alt"></i>
   </span>
-</section>
+</a>
+    </section>
 
-<script>
+    <script>
       document.getElementById('to-up').style.visibility='hidden';
       window.onscroll = function(){
         if (window.pageYOffset <= 1000){
@@ -229,6 +223,6 @@
           document.getElementById('to-up').style.visibility='visible';
         }
       }
-</script>
-</body>
+    </script>
+  </body>
 </html>

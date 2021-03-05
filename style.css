@@ -4,10 +4,10 @@
 }
 
 body{
-    margin: 3px 3px;
+    margin: auto; 
     box-sizing: border-box;
     font-size: 1.2rem;
-    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-family: sans-serif;
 }   
 
 /*--Header--*/
@@ -28,7 +28,7 @@ body{
 
 .navbar .navbar-brand{
 letter-spacing: 0.3rem;
-font-size: 1.8rem;
+font-size: 1.5rem;
 background: -webkit-linear-gradient(90deg, purple, blue);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
@@ -70,6 +70,7 @@ background: -webkit-linear-gradient(90deg, purple, blue);
     font-weight: bolder;
     color: var(--main-color);
 }
+
 
 /* Skills section */
 .section-title{
@@ -137,7 +138,7 @@ margin: 0px 10px 30px 10px ;
 
 #to-up {
     position: fixed;
-    background: rgb(191, 240, 221);
+    background: rgb(155, 235, 204);
     color: white;
     font-size: 1.5rem;
     z-index: 999;
@@ -149,4 +150,4 @@ margin: 0px 10px 30px 10px ;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 5px 5px 10px lightblue;
+    box-shadow: 5px, 5px, 10px lightblue;
